@@ -13,7 +13,6 @@ Kwikmart is a family-shared grocery list app that allows users to create, manage
 
 - Flutter
 - Firebase for backend services
-- GetX for state management
 
 ## Installation
 
