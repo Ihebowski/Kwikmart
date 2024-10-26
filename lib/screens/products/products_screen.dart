@@ -36,9 +36,9 @@ class _ProductsScreenState extends State<ProductsScreen> {
         child: Padding(
           padding: const EdgeInsets.only(top: 10.0, left: 10.0, right: 10.0),
           child: Container(
-            decoration: const BoxDecoration(
+            decoration: BoxDecoration(
               color: bgSecondColor,
-              borderRadius: BorderRadius.only(
+              borderRadius: const BorderRadius.only(
                 topLeft: Radius.circular(20),
                 topRight: Radius.circular(20),
               ),

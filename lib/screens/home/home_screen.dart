@@ -25,7 +25,7 @@ class _HomeScreenState extends State<HomeScreen> {
             height: 80,
             width: double.infinity,
             padding: const EdgeInsets.symmetric(horizontal: 20),
-            child: const Row(
+            child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Column(
@@ -40,7 +40,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         fontSize: 30,
                       ),
                     ),
-                    SizedBox(
+                    const SizedBox(
                       height: 2,
                     ),
                     Text(

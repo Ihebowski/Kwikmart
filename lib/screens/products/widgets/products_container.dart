@@ -49,7 +49,7 @@ class _ProductContainerState extends State<ProductContainer> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
-                  const Text(
+                  Text(
                     "Products",
                     textAlign: TextAlign.start,
                     style: TextStyle(

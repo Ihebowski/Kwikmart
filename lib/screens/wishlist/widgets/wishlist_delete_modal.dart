@@ -42,7 +42,7 @@ class _WishlistDeleteModalState extends State<WishlistDeleteModal> {
             RichText(
               textAlign: TextAlign.justify,
               text: TextSpan(
-                style: const TextStyle(
+                style: TextStyle(
                   fontSize: 16,
                   fontWeight: FontWeight.normal,
                   color: textSecond,
@@ -83,7 +83,7 @@ class _WishlistDeleteModalState extends State<WishlistDeleteModal> {
                   onPressed: () {
                     Navigator.pop(context);
                   },
-                  child: const Text(
+                  child: Text(
                     "Cancel",
                     style: TextStyle(color: textSecond),
                   ),
@@ -110,7 +110,7 @@ class _WishlistDeleteModalState extends State<WishlistDeleteModal> {
                         .catchError((e) => print(e));
                     Navigator.pop(context);
                   },
-                  child: const Text(
+                  child: Text(
                     "Delete",
                     style: TextStyle(
                       color: textMain,

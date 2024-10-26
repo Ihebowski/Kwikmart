@@ -34,7 +34,7 @@ class CategoriesContainer extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
-                      const Text(
+                      Text(
                         "Categories",
                         style: TextStyle(
                           color: textSecond,
@@ -51,7 +51,7 @@ class CategoriesContainer extends StatelessWidget {
                             ),
                           );
                         },
-                        child: const Text(
+                        child: Text(
                           "See All",
                           style: TextStyle(
                             color: textThird,

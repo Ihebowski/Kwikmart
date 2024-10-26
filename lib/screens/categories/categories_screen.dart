@@ -37,9 +37,9 @@ class _CategoriesScreenState extends State<CategoriesScreen> {
                     top: 10.0, left: 10.0, right: 10.0), //White bg padding
                 child: Container(
                   padding: const EdgeInsets.all(5.0), //Padding inside white
-                  decoration: const BoxDecoration(
+                  decoration: BoxDecoration(
                     color: bgSecondColor,
-                    borderRadius: BorderRadius.only(
+                    borderRadius: const BorderRadius.only(
                       topLeft: Radius.circular(20),
                       topRight: Radius.circular(20),
                     ),

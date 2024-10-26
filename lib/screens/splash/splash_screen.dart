@@ -54,7 +54,7 @@ class _SplashScreenState extends State<SplashScreen> {
             const SizedBox(
               height: 30,
             ),
-            const Text(
+            Text(
               "Kwikmart",
               style: TextStyle(
                 color: textSecond,
@@ -65,7 +65,7 @@ class _SplashScreenState extends State<SplashScreen> {
             const SizedBox(
               height: 10,
             ),
-            const Text(
+            Text(
               "Your needs in just one place.",
               style: TextStyle(
                 color: textSecond,

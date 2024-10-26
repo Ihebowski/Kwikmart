@@ -128,7 +128,7 @@ class _SheetContainerState extends State<SheetContainer> {
                       ),
                       Text(
                         widget.quantity.toString(),
-                        style: const TextStyle(
+                        style: TextStyle(
                           fontSize: 30,
                           fontWeight: FontWeight.bold,
                           color: textSecond,
@@ -139,7 +139,7 @@ class _SheetContainerState extends State<SheetContainer> {
                       ),
                       Text(
                         widget.productUnit,
-                        style: const TextStyle(
+                        style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.w300,
                           color: textSecond,
