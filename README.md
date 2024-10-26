@@ -18,7 +18,7 @@ Kwikmart is a family-shared grocery list app that allows users to create, manage
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/kwikmart.git
+   git clone https://github.com/ihebowski/kwikmart.git
    ```
 2. Navigate to the project directory:
    ```bash
